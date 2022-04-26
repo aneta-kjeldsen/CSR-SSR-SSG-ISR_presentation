@@ -1,0 +1,15 @@
+{
+  "name": "csr-ssr-ssg-isr-presentation",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneta-kjeldsen/CSR-SSR-SSG-ISR_presentation.git"
+  },
+  "author": "Aneta Kjeldsen <aneta.kjeldsen@gmail.com>",
+  "scripts": {
+    "start": "es-dev-server"
+  },
+  "dependencies": {
+    "es-dev-server": "^2.1.0"
+  }
+}
