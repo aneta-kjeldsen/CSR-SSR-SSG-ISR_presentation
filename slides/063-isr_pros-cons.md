@@ -3,15 +3,15 @@
 - the best from both worlds <!-- .element: class="fragment fade-in" -->
 - quick initial access <!-- .element: class="fragment fade-in" -->
 - great First Contentful Paint score<!-- .element: class="fragment fade-in" -->
+- great UX when browsing from page to page<!-- .element: class="fragment fade-in" -->
 - great for SEO<!-- .element: class="fragment fade-in" -->
-- personalisation is much easier<!-- .element: class="fragment fade-in" -->
 
 Note:
 - combines the best from both worlds: SSG & SSR
-- in theory pages are immediately available to interact with, on CSR app, users can’t interact with website until the JS bundle is 100% loaded
-- SSR can give a great First Contentful Paint score, which improves the user experience
-- search engines don’t need to run JS to read and index content, CSR websites get indexed as well, but not as fast as SSR
-- enables teams to provide dynamic content experiences that can be personalised
+- in theory pages are immediately available to interact with
+- can give a great First Contentful Paint score, which improves the UX
+- no calls to server each time when users navigates on the page
+- search engines don’t need to run JS to read and index content
 
 
 <img src="./dist/icons/fa-circle-xmark.svg" class="heading--icon" />
@@ -23,6 +23,6 @@ Note:
 
 Note: 
 - when user comes to page, you want them to see the most up-to-date version immediately, that's not the case
-- this inconsistent experience can be pretty difficult to debug if your users experience negative side-effects as a result of old/unbuilt pages
-- rollbacks can no longer be instant (products on sale example and rolling back page), and you no longer have that single new version of your site when you update your content
-- different users (and the dev team!) would see different pages, and it might be difficult to duplicate.
+- can have negative side-effects on UX as a result of old/unbuilt pages
+- rollbacks can no longer be instant, and you no longer have that single new version of your site when you update your content
+- different users (and the dev team!) would see different pages, and it might be difficult to duplicate
